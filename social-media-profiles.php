@@ -1,12 +1,10 @@
-<?php include('cdlinks.php'); ?>
-
 <?php
 /*
 Plugin Name: Social profile plugin
 Description: Welcome to WordPress plugin development.
-Plugin URI:  https://plugin-planet.com/
+Plugin URI:  https://github.com/SagunNakarmiJCU/Assignment3CMS
 Author:      Sagun Nakarmi
-Version:     1.0
+Version:     1.3
 License:     GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -57,7 +55,7 @@ function register_default_social_profiles( $profiles ) {
 
 	$profiles['facebook'] = array(
 		'id'                => 'hd_espw_facebook_url',
-		'label'             => __( 'Facebook URL', 'social-media-profiles' ),
+		'label'             => __( 'Facebook ', 'social-media-profiles' ),
 		'class'             => 'facebook',
 		'description'       => __( 'Enter your Facebook profile URL', 'social-media-profiles' ),
 		'priority'          => 10,
@@ -69,7 +67,7 @@ function register_default_social_profiles( $profiles ) {
 
 	$profiles['linkedin'] = array(
 		'id'                => 'hd_espw_linkedin_url',
-		'label'             => __( 'LinkedIn URL', 'social-media-profiles' ),
+		'label'             => __( 'LinkedIn ', 'social-media-profiles' ),
 		'class'             => 'linkedin',
 		'description'       => __( 'Enter your LinkedIn profile URL', 'social-media-profiles' ),
 		'priority'          => 20,
@@ -81,7 +79,7 @@ function register_default_social_profiles( $profiles ) {
 
 	$profiles['twitter'] = array(
 		'id'                => 'hd_espw_twitter_url',
-		'label'             => __( 'Twitter URL', 'social-media-profiles' ),
+		'label'             => __( 'Twitter', 'social-media-profiles' ),
 		'class'             => 'twitter',
 		'description'       => __( 'Enter your Twitter profile URL', 'social-media-profiles' ),
 		'priority'          => 40,
@@ -93,7 +91,7 @@ function register_default_social_profiles( $profiles ) {
 
 	$profiles['youtube'] = array(
 		'id'                => 'hd_espw_youtube_url',
-		'label'             => __( 'Youtube URL', 'social-media-profiles' ),
+		'label'             => __( 'Youtube', 'social-media-profiles' ),
 		'class'             => 'youtube',
 		'description'       => __( 'Enter your youtube profile URL', 'social-media-profiles' ),
 		'priority'          => 40,
@@ -104,7 +102,7 @@ function register_default_social_profiles( $profiles ) {
 
 	$profiles['instagram'] = array(
  		'id'                => 'hd_espw_instagram_url',
-		'label'             => __( 'Instagram URL', 'social-media-profiles' ),
+		'label'             => __( 'Instagram 	', 'social-media-profiles' ),
 		'class'             => 'instagram',
 		'description'       => __( 'Enter your Instagram profile URL', 'social-media-profiles' ),
 		'priority'          => 40,
